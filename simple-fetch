@@ -1,0 +1,7 @@
+It sends a message to a server for information and the server will return a response. 
+
+bash came up with syntax error token 'response' when running fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json)) 
+
+in console. 
