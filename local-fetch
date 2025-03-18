@@ -1,0 +1,10 @@
+The way to get the app, https://github.com/akw31108/random-number-express-app, to work is by going to a website that is approved, like https://www.google.com, and open the source with F12.  After that you want to run the fetch command with the command below:
+
+Fetch('http://localhost:3003/')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+When you run this command, a display of numbers ranging from 0 - 100 should be randomly generated each time you run the command. 
+
+NOTE: This should only work with approved sites in the server.js file.
